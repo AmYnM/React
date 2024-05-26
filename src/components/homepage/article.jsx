@@ -1,5 +1,5 @@
 import React from "react";
-import myArticles, { article_1 } from "../../data/articles";
+import myArticles from "../../data/articles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
