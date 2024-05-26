@@ -2,15 +2,15 @@
 
 Reactfolio is a modern and customizable personal portfolio web template built using the popular React library. It provides an easy way for developers, designers, and creatives to showcase their work, skills, and achievements in a professiona and visually appealing way. With its responsive design and clean code, Reactfolio can be easily tailored to suit individual needs and preferences, making it an ideal choice for anyone looking to create a stunning online portfolio.
 
-<center>
+<!-- <center>
 <img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" />
-</center>
+</center> -->
 
-Live demo here: <a href="https://reactfolio.amyn.dev/" target="_blank">reactfolio.ameen</a>
+<!-- Live demo here: <a href="https://reactfolio.amyn.dev/" target="_blank">reactfolio.ameen</a>
 <br/>
-Readme here: <a href="https://amyn.dev/portfolio/reactfolio/" target="_blank">ameen/portfolio/reactfolio/</a>
+Readme here: <a href="https://amyn.dev/portfolio/reactfolio/" target="_blank">ameen/portfolio/reactfolio/</a> -->
 
--   [Features](#-features)
+<!-- -   [Features](#-features)
 -   [Getting started](#-getting-started)
 -   [Installation and Setup Instructions](#-installation-and-setup-instructions)
 -   [Folder structure](#-folder-structure)
@@ -18,7 +18,7 @@ Readme here: <a href="https://amyn.dev/portfolio/reactfolio/" target="_blank">am
 -   [Google Analytics](#-google-analytics)
 -   [Building the React App](#-building-the-react-app)
 -   [FAQ](#-faq)
--   [Contribution](#-contribution)
+-   [Contribution](#-contribution) -->
 
 ## 📙 Features
 
@@ -79,32 +79,35 @@ Directory: `/src/data/`
             - In React there has no keyword `class`, so you should use `className` to define html classes.
 
             ```js
-            function article_3() {
-            	return {
-            		date: "7 May 2023",
-            		title: "The Benefits of Cloud Computing",
-            		description: "Why businesses are turning to the cloud.",
-            		style: `
-            				.random-image {
-            					align-self: center;
-            					outline: 2px solid red;
-            				}
-            				`,
-            		body: (
-            			<React.Fragment>
-            				<div className="article-content">
-            					<div className="paragraph">
-            						Content of article 1
-            					</div>
-            					<img
-            						src="https://picsum.photos/200/300"
-            						alt="random"
-            						className="random-image"
-            					/>
-            				</div>
-            			</React.Fragment>
-            		),
-            	};
+            export function article_3() {
+            return {
+                id: 3,
+                date: "22 May 2024",
+                title: "Unraveling the Potential of Blockchain Technology: A Primer",
+                description:
+                    "Blockchain technology has emerged as a disruptive force, promising to revolutionize industries, redefine trust, and reshape the way we transact and interact online. In this article, we’ll delve into the fundamentals of blockchain technology, explore its potential applications, and discuss the implications for the future.",
+                style: ``,
+                keywords: [
+                    "Blockchain Technology",
+                    "Smart Contract",
+                    "Ameen",
+                    "Ameenul M",
+                    "Ameenul Muthaliff",
+                ],
+                mediumLink: "https://medium.com/@muthaliff/unraveling-the-potential-of-blockchain-technology-a-primer-8c57123ec066",
+                body: (
+                    <React.Fragment>
+                        <div className="article-content"></div>
+                        <h1>Article 3</h1>
+                        <iframe
+                        src="https://medium.com/@muthaliff/unraveling-the-potential-of-blockchain-technology-a-primer-8c57123ec066"
+                        title="Article from Medium"
+                        width="100%"
+                        height="600px"
+                    ></iframe>
+                    </React.Fragment>
+                    ),
+                };
             }
             ```
 
@@ -135,8 +138,8 @@ Directory: `/src/data/`
     	{
     		page: "home",
     		description:
-    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-    		keywords: ["Tharindu", "Tharindu N", "Tharindu Nayanajith"],
+    			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+    		keywords: ["Ameen", "Ameenul", "Ameenul Muthaliff"],
     	},
     ];
     ```
