@@ -39,7 +39,7 @@ const INFO = {
 			description:
 				"A simple Blackjack game where players aim to get as close to 21 without exceeding it. Players compete against the dealer, drawing cards to beat the dealer's hand while strategically deciding when to hit or stand.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "Dive In",
 			link: "https://github.com/AmYnM/BlackJack",
 		},
 
@@ -48,7 +48,7 @@ const INFO = {
 			description:
 				"Indulge in our handpicked selection of artisanal coffees and delectable treats. From rich, aromatic espressos and creamy lattes to freshly baked pastries and savory snacks, our menu offers the perfect pairing for every palate. Discover your new favorite blend today!",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "Dive In",
 			link: "https://github.com/AmYnM/Menu-Card",
 		},
 
@@ -57,25 +57,25 @@ const INFO = {
 			description:
 				"The Tours and Travels API provides endpoints to manage travel destinations, activities, and user reviews, enabling seamless integration for booking and travel planning services. It supports search functionality, user authentication, and dynamic data retrieval for an enhanced travel experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
+			linkText: "Dive In",
 			link: "https://github.com/AmYnM/Tours-and-Travels",
 		},
 
-		// {
-		// 	title: "Project 4",
-		// 	description:
-		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
+		{
+			title: "Sample Portfolio",
+			description:
+				"A dynamic and engaging portfolio built with React, showcasing my diverse projects and technical expertise. Explore my work, delve into the code, and discover the passion and creativity I bring to every endeavor.",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+			linkText: "Dive In",
+			link: "https://github.com/AmYnM/React",
+		},
 
 		// {
 		// 	title: "Project 5",
 		// 	description:
 		// 		"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-		// 	linkText: "View Project",
+		// 	linkText: "Dive In,
 		// 	link: "https://github.com",
 		// },
 	],
