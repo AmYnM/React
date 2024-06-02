@@ -26,18 +26,18 @@ const Works = () => {
 							<div className="work-duration">JAN 2022 - NOV 2023</div>
 						</div>
 
-						<div className="work">
+						{/* <div className="work">
 							<img
 								src="./play.png"
 								alt="twitter"
 								className="work-image"
-							/>
+							/> */}
 							{/* <div className="work-title">Pistos IOT Solutions</div>
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
 							<div className="work-duration">DEC 2023 - Present</div> */}
-						</div>
+						{/* </div> */}
 					</div>
 				}
 			/>
