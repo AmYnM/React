@@ -32,11 +32,11 @@ const Works = () => {
 								alt="twitter"
 								className="work-image"
 							/>
-							<div className="work-title">Pistos IOT Solutions</div>
+							{/* <div className="work-title">Pistos IOT Solutions</div>
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
-							<div className="work-duration">DEC 2023 - Present</div>
+							<div className="work-duration">DEC 2023 - Present</div> */}
 						</div>
 					</div>
 				}
