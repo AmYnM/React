@@ -24,7 +24,7 @@ const INFO = {
 	about: {
 		title: "I’m Ameenul Muthaliff. I live in Chennai, where innovation meets excellence, I design the future.",
 		description:
-			"I've been involved in various projects, including mutual fund management with CAMS CRE NPS, and the development of multiple web applications. Additionally, I've contributed to projects in e-commerce, business application, toursim applications. For more information about these projects or to discuss potential collaborations, please feel free to reach out.",
+			"I've been involved in various projects, including mutual fund management with CAMS CRA NPS, and the development of multiple web applications. Additionally, I've contributed to projects in e-commerce, business application, toursim applications. For more information about these projects or to discuss potential collaborations, please feel free to reach out.",
 	},
 
 	articles: {
